@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/898034d606.js" crossorigin="anonymous"></script>
+ 
+     
+  <link rel="stylesheet" href="maincss.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="img-container"> <img src="./1659043981-ent22-september-cover.jpg" alt="" srcset=""></div>
+            <ul class=" nav-items">
+
+
+                <li> <a href="">Home</a> </li>
+                <li id="lione"> About <span class="arrow" style="font-size: 1rem;"> &#9660; </span></li>
+                <div class="dropdowns">
+                    <li><a href="">Zephar</a></li>
+                    <li><a href="">Corecomitee</a></li>
+                </div>
+                <li id="litwo"> Event Calender <span class="arrow2" style="font-size: 1rem;"> &#9660;
+                    </span></li>
+                <div class="dropdowns2">
+                    <li><a href="">Zephar</a></li>
+                    <li><a href="">Corecomitee</a></li>
+                </div>
+                <li><a href="">Magazines</a> </li>
+                <li> <a href="">Sponsorship</a></li>
+            </ul>
+
+            <div class="hamberger-menu" style="color:#fff;"><i class="fa-solid fa-bars fa-3x"></i></div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+
+        <main>
+            <h1 style="color: #fff">Past Events</h1>
+            <div class="all-container">
+                <div class="img-container">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+
+                </p>
+                <!-- <i class="fa-light fa-5x fa-pipe" style="color: red;"></i> -->
+                <!-- <svg height="" width="500" class="svg1">
+              <line x1="0.5.5cm" y1="2cm" x2="0.5.5cm" y2="90cm" style="stroke:#fff;" />
+            </svg> -->
+
+                <div class="img-container1">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+
+                </p>
+                <!-- <svg height="" width="500" class="svg2">
+            <line x1="0.7cm" y1="6cm" x2="0.7cm" y2="3.0cm" style="stroke: #fff;" />
+          </svg> -->
+
+                <div class="img-container2">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                    d
+                </p>
+
+                <div class="img-container3">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                    .
+                </p>
+
+                <div class="img-container4">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                    de
+                </p>
+
+                <div class="img-container7">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para7">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                    dele
+                </p>
+
+                <div class="img-container8">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para8">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                    de
+                </p>
+
+                <div class="img-container9">
+                    <img src="https://picsum.photos/id/237/200/300" alt="" srcset="" />
+                </div>
+                <p style="color: #fff" class="para9">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                    del
+                </p>
+
+                <div class="empty">
+                  
+                </div>
+            </div>
+        </main>
+
+    </div>
+    
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const list1 = document.querySelector("#lione");
+        const list2 = document.getElementById("litwo");
+        const dps = document.querySelector(".dropdowns");
+        const dpse = document.querySelector(".dropdowns2");
+
+        list1.addEventListener("click", function () {
+            if (dps.style.display == "block") {
+                dps.style.display = "none"
+            }
+            else {
+                dps.style.display = "block"
+            }
+
+        });
+        list2.addEventListener("click", function () {
+            if (dpse.style.display == "block") {
+                dpse.style.display = "none"
+            }
+            else {
+                dpse.style.display = "block"
+            }
+
+        })
+        // ###########################for hamberger menu########################## 
+        const hambergermenu = document.querySelector(".hamberger-menu");
+        const navitems = document.querySelector(".nav-items");
+        hambergermenu.addEventListener("click", function () {
+
+            if (navitems.style.display == "block") {
+                navitems.style.display = "none";
+            }
+            else {
+                navitems.style.display = "block";
+            }
+        })
+    </script>
+</body>
+
+</html>
