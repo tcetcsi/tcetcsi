@@ -1,15 +1,15 @@
 *{
-    font-family: monospace;
+    font-family: sans-serif;
 }
 
 .maincontainer{
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
 
 .mainheading{
     text-align: center;
     color: white;
     font-family: cursive;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff6600, 0 0 0.5em #ff6600, 0 0 0.1em #ff6600, 0 10px 3px #000;
 }
