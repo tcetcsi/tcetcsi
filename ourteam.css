@@ -306,6 +306,7 @@ img {
   display: flex;
   justify-content: start;
   align-items: center;
+  text-align: justify;
 }
 .img2-container > img {
   padding: 1rem;
@@ -321,6 +322,8 @@ img {
   display: flex;
   justify-content: start;
   align-items: center;
+  align-items: center;
+  text-align: justify;
 }
 .faculty-icharges {
   display: flex;
