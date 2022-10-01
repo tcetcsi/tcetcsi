@@ -436,27 +436,25 @@ main {
 @keyframes lightson {
   0% {
     opacity: 0;
-    box-shadow: 0px 0px 0px 0px #fe1dad, 0px 0px 0px 0px #fe1dad,
-      0px 0px 0px 0px #fe1dad, inset 0px 0px 0px #fe1dad;
+    box-shadow: 0px 0px 0px 0px cyan, 0px 0px 0px 0px cyan, 0px 0px 0px 0px cyan, inset 0px 0px 0px cyan;
   }
+
   20% {
     opacity: 0.5;
-    box-shadow: 0px 0px 5px 0px #fe1dad, 0px 0px 5px 0px #fe1dad,
-      0px 0px 10px 0px #fe1dad, inset 0px 0px 5px #fe1dad;
+    box-shadow: 0px 0px 5px 0px cyan, 0px 0px 5px 0px cyan, 0px 0px 10px 0px cyan, inset 0px 0px 5px cyan;
   }
+
   40% {
     opacity: 0;
-    box-shadow: 0px 0px 2px 0px #fe1dad, 0px 0px 5px 0px #fe1dad,
-      0px 0px 25px 0px #fe1dad, inset 0px 0px 10px #fe1dad;
+    box-shadow: 0px 0px 2px 0px cyan, 0px 0px 5px 0px cyan, 0px 0px 25px 0px cyan, inset 0px 0px 10px cyan;
   }
+
   50% {
     opacity: 1;
-    box-shadow: 0px 0px 10px 0px #fe1dad, 0px 0px 20px 0px #fe1dad,
-      0px 0px 100px 0px #fe1dad, inset 0px 0px 30px #fe1dad;
+    box-shadow: 0px 0px 10px 0px cyan, 0px 0px 20px 0px cyan, 0px 0px 100px 0px cyan, inset 0px 0px 30px cyan;
   }
+
   100% {
     opacity: 1;
-    box-shadow: 0px 0px 5px 0px #fe1dad, 0px 0px 10px 0px #fe1dad,
-      0px 0px 20px 0px #fe1dad, inset 0px 0px 10px #fe1dad;
-  }
-}
+    box-shadow: 0px 0px 5px 0px cyan, 0px 0px 10px 0px cyan, 0px 0px 20px 0px cyan, inset 0px 0px 10px cyan;
+  }}
