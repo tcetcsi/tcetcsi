@@ -17,7 +17,44 @@
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+  .blackpink1 {
+    padding: 0.5rem;
+    width: fit-content;
+    margin: 3rem auto;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    animation: lightson .5s ease 3 forwards;
+    color: white;
+    font-size: 2rem;
+  }
 
+  @keyframes lightson {
+    0% {
+      opacity: 0;
+      box-shadow: 0px 0px 0px 0px cyan, 0px 0px 0px 0px cyan, 0px 0px 0px 0px cyan, inset 0px 0px 0px cyan;
+    }
+
+    20% {
+      opacity: 0.5;
+      box-shadow: 0px 0px 5px 0px cyan, 0px 0px 5px 0px cyan, 0px 0px 10px 0px cyan, inset 0px 0px 5px cyan;
+    }
+
+    40% {
+      opacity: 0;
+      box-shadow: 0px 0px 2px 0px cyan, 0px 0px 5px 0px cyan, 0px 0px 25px 0px cyan, inset 0px 0px 10px cyan;
+    }
+
+    50% {
+      opacity: 1;
+      box-shadow: 0px 0px 10px 0px cyan, 0px 0px 20px 0px cyan, 0px 0px 100px 0px cyan, inset 0px 0px 30px cyan;
+    }
+
+    100% {
+      opacity: 1;
+      box-shadow: 0px 0px 5px 0px cyan, 0px 0px 10px 0px cyan, 0px 0px 20px 0px cyan, inset 0px 0px 10px cyan;
+    }}
+</style>
 <body>
   <!--navbar-->
   <nav class="navbar navbar-ligth navbar-expand-md fixed-top bg-light navbar--apple"
@@ -62,7 +99,7 @@
   </div>
   <!--main content-->
   <!--timeline part-->
-  <h1 class="flex-box2">UPCOMING EVENTS</h1>
+  <h1 class="flex-box2 blackpink1">UPCOMING EVENTS</h1>
   <div class="maintimelinediv">
     <div class="timeline1">
       <div class="card1">
