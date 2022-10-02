@@ -199,205 +199,307 @@ body {
   border-radius: 20px;
   margin: 0 auto;
 }
+@media (max-width: 786px) {
+  .gallery-container {
+    width: 100vw;
+    padding: 0;
+  }
+  .container-img {
+    width: 100%;
+    padding: 0;
+  }
+  .container-img > img {
+    width: 100%;
+  }
+}
 
-/* ############################map########################  */
-.containermap {
+/* ############################footer########################  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+footer {
+  position: absolute;
+
+  font-family: sans-serif;
   width: 100vw;
-  background-color: rgba(128, 128, 128, 0.423);
-}
-.max-container-map {
-  max-width: 1100px;
+  background-color: #040816;
   height: max-content;
-  margin: 0rem auto;
-  border-radius: 20px;
-  display: flex;
-  padding: 1rem;
-  justify-content: space-around;
+  border-bottom: 2px dotted #a5f0d3;
 }
-.address {
-  width: 50%;
-  order: 1;
+.footer-container {
+  width: 80%;
+  height: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
   color: #fff;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.388);
-  margin: 1rem;
-  border-radius: 20px;
 }
-.city > h2 {
-  font-size: 1.5vw;
+.footer-container > h1 {
+  display: flex;
+  flex-direction: row;
+  gap: 2.6rem;
+  font-size: 2.5rem;
 }
-.csi > h1 {
-  font-size: 2.5vw;
+.icon-colour {
+  color: #a5f0d3;
 }
-.add > h4 {
-  font-size: 1.5vw;
+.map-container {
+  height: max-content;
 }
-.number > h4 {
-  font-size: 1.5vw;
+.map-container > .address {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  row-gap: 2rem;
 }
-.map {
-  order: 2;
-  width: 59%;
+.map-container > .map {
+  width: 50%;
 }
-.map iframe {
-  border-radius: 20px;
+.map-container {
+  display: flex;
   margin: 1rem auto;
   width: 100%;
-}
-.city {
-  display: flex;
   justify-content: space-between;
+}
 
+.map > iframe {
+  border-radius: 20px;
   width: 100%;
-  line-height: 3rem;
-  padding: 1rem 2rem;
 }
-.add {
-  display: flex;
-  padding: 1rem;
-  margin: 0 auto;
-}
-.city > h2 {
-  width: 100%;
-  text-align: center;
-  line-height: 3rem;
-}
-.add > i {
-  padding: 1rem;
-}
-.add h4 {
-  padding: 1rem;
-  text-align: start;
-}
-.phone {
-  display: flex;
-
-  padding: 1rem;
-  margin: 0 auto;
-}
-.phone i {
-  padding: 1rem;
-}
-.phone h4 {
-  padding: 1rem;
-  line-height: 3rem;
-}
-.mail {
-  display: flex;
-  margin: 0 1rem;
-  align-items: center;
-}
-.mail i {
-  padding: 1rem;
-}
-.input {
-  width: 60%;
-  height: 2rem;
-  border-radius: 10px;
-  text-align: center;
-}
-.mail > button {
-  margin: 0 0.5rem;
-  padding: 0.3rem;
+.address > h3 {
   font-weight: bold;
+  font-size: 2rem;
 }
-@media (max-width: 768px) {
-  .body {
-    font-size: 10px;
+.address > .add {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  width: 60%;
+  font-size: 1.2rem;
+}
+.Email {
+  width: 90%;
+}
+.Email > i {
+  margin-right: 1rem;
+
+  font-size: 1.5rem;
+}
+.Email > span {
+  color: #a5f0d3;
+  font-size: 1.5rem;
+}
+.Email {
+  font-size: 1.5rem;
+}
+.callraj {
+  width: 90%;
+}
+.callraj > i {
+  margin-right: 1rem;
+
+  font-size: 1.5rem;
+}
+.callraj > span {
+  color: #a5f0d3;
+  font-size: 1.5rem;
+}
+.callraj {
+  font-size: 1.5rem;
+}
+.callpragya {
+  width: 100%;
+}
+.callpragya > i {
+  margin-right: 1rem;
+
+  font-size: 1.5rem;
+}
+.callpragya > span {
+  color: #a5f0d3;
+  font-size: 1.5rem;
+}
+.callpragya {
+  font-size: 1.5rem;
+}
+.social-contain {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 1rem;
+  height: min-content;
+}
+.both-container {
+  display: flex;
+  width: 40vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.lets-connect {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: min-content;
+}
+.lets-connect > h4 {
+  margin: 1rem;
+}
+.lets-connect > h4:hover {
+  color: aqua;
+}
+
+h6 {
+  color: #fff;
+  font-size: 1rem;
+}
+.github {
+  margin: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  align-items: center;
+  gap: 20px;
+  height: min-content;
+}
+.github > i {
+  height: max-content;
+}
+.github > h6 {
+  color: #fff;
+}
+.github > h6:hover {
+  color: aqua;
+}
+.linkedin {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  align-items: center;
+  gap: 20px;
+  height: min-content;
+}
+.linkedin > i {
+  height: max-content;
+}
+.linkedin > h6 {
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 0 !important;
+}
+.linkedin > h6:hover,
+.Instagram > h6:hover,
+.Facebook > h6:hover {
+  color: aqua;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: min-content;
+}
+h6 {
+  color: #fff;
+  font-size: 1rem;
+}
+.Instagram {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  align-items: center;
+  gap: 10px;
+  height: min-content;
+}
+.Instagram > i {
+  height: max-content;
+}
+.Instagram > h6 {
+  color: #fff;
+}
+.Facebook {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  align-items: center;
+  gap: 20px;
+  height: min-content;
+}
+.Facebook > i {
+  height: max-content;
+}
+.Facebook > h6 {
+  color: #fff;
+}
+@media (max-width: 786px) {
+  footer {
+    overflow-x: hidden;
   }
-  .containermap {
+  .footer-container {
     width: 100vw;
+    padding: 0.5rem;
   }
-  .max-container-map {
-    width: 100%;
-    height: max-content;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
+  .footer-container > h1 {
+    font-size: 2rem;
+    width: fit-content;
   }
   .address {
-    width: 100%;
-    order: 2;
-    color: #fff;
-    display: flex;
+    padding: 0;
+  }
+  .address > h3 {
+    font-size: 1.3rem;
+  }
+  .map-container {
     flex-direction: column;
-    align-items: center;
-    background-color: #000;
-    margin: 0.3rem;
-    border-radius: 20px;
-  }
-  .city > h2 {
-    font-size: 3.5vw;
-  }
-  .csi > h1 {
-    font-size: 5vw;
-  }
-  .add > h4 {
-    font-size: 3.5vw;
-  }
-  .number > h4 {
-    font-size: 3.5vw;
-  }
-  .map {
-    order: 1;
-    width: 96%;
-  }
-  .map iframe {
-    border-radius: 20px;
-    margin: 1rem auto;
-    width: 100%;
-  }
-  .city {
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-    line-height: 3rem;
-    padding: 1rem;
-  }
-  .add {
-    display: flex;
-    padding: 1rem;
+    width: 95%;
     margin: 0 auto;
   }
-  .add > i {
-    padding: 1rem;
+  .Email,
+  .callpragya,
+  .callraj {
+    font-size: 1rem;
   }
-  .add h4 {
-    padding: 1rem;
-    text-align: start;
+  .Email > span,
+  .callpragya > span,
+  .callraj > span {
+    font-size: 1rem;
   }
-  .phone {
-    display: flex;
-
-    padding: 1rem;
-    margin: 0 auto;
+  .map-container > .address {
+    width: 100%;
   }
-  .phone i {
-    padding: 1rem;
+  .address > .add {
+    font-size: 1rem;
+    width: 90%;
   }
-  .phone h4 {
-    padding: 1rem;
-    line-height: 3rem;
+  .map-container > .map {
+    width: 100%;
   }
-  .mail {
-    display: flex;
-    margin: 0 1rem;
-    align-items: center;
+  .social-contain {
+    width: 100vw;
   }
-  .mail i {
-    padding: 1rem;
-  }
-  .input {
-    width: 60%;
-    height: 2rem;
-    border-radius: 10px;
-    text-align: center;
-  }
-  .mail > button {
-    margin: 0 0.5rem;
-    padding: 0.3rem;
-    font-weight: bold;
+  .both-container {
+    width: 90%;
   }
 }
