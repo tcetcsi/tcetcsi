@@ -29,6 +29,10 @@
     font-size: 2rem;
   }
 
+  a {
+    text-decoration: none !important;
+  }
+
   @keyframes lightson {
     0% {
       opacity: 0;
@@ -53,8 +57,10 @@
     100% {
       opacity: 1;
       box-shadow: 0px 0px 5px 0px cyan, 0px 0px 10px 0px cyan, 0px 0px 20px 0px cyan, inset 0px 0px 10px cyan;
-    }}
+    }
+  }
 </style>
+
 <body>
   <!--navbar-->
   <nav class="navbar navbar-ligth navbar-expand-md fixed-top bg-light navbar--apple"
@@ -168,71 +174,60 @@
 
 
 
-  <div class="containermap">
-    <div class="max-container-map">
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.7507870964164!2d72.87195716482405!3d19.206084287013457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b738c9e09369%3A0x4be91c068af00f54!2sThakur%20College%20of%20Science%20and%20Commerce!5e0!3m2!1sen!2sin!4v1662817856299!5m2!1sen!2sin"
-          width="600" height="460" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-      </div>
-      <div class="address">
-        <div class="city"> <i class="fa-solid fa-street-view fa-3x"></i>
-          <h2>Mumbai,Maharashtra</h2>
-        </div>
-        <div class="csi" style="text-align: center;">
-          <h1>CSI-TCET </h1>
-          <div class="add"><i class="fa-sharp fa-solid fa-map-location fa-3x"></i>
-            <h4> Thakur College of Engineering and Technology
-              , Ramnarayan Thakur Rd, ठाकुर, Thakur Village, Kandivali East, Mumbai, Maharashtra
-              400101</h4>
-          </div>
-          <div class="phone">
-            <i class="fa-solid fa-phone fa-3x"></i>
-            <div class="number">
-              <h4>3235346576/25456758</h4>
-            </div>
-          </div>
 
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- Footer -->
-  <footer class="bg-dark text-center text-white p-3">
-    <!-- Grid container -->
-    <div class="container-fluid">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
-      </section>
-      <!-- Section: Social media -->
-
+  <footer>
+    <div class="footer-container">
+      <h1><i class="fa-solid fa-location-dot  icon-colour"></i>Find Us</h1>
+      <div class="map-container">
+        <div class="address">
+          <h3>Thakur college of Engineering and Technology</h3>
+          <div class="add">
+            Thakur Campus,Kandivali East,Gate No-5 Mumbai: 400101</div>
+          <div class="Email"><i class="fa-solid fa-envelope  icon-colour"></i><span>Email:
+            </span>csitect@gmail.com
+          </div>
+          <div class="callraj "><i class="fa-solid fa-phone icon-colour"></i><span>Raj Desai: </span>
+            +9135443645</div>
+          <div class="callpragya "><i class="fa-solid  fa-phone icon-colour"></i><span>Pragya
+              Shukla: </span>+91
+            23334455666
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.7458389923036!2d72.87241691490318!3d19.206300287013224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0e57647569d%3A0xc0aec329c82d3555!2sThakur%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1664616468748!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
     </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">CSI | Developed by tech team</a>
+    <div class="social-contain" style="border-top: 2px dotted  #a5f0d3; ;">
+      <div class="both-container">
+        <div class="letsConnect">
+          <h4 class="icon-colour">Lets Connect</h4>
+          <a class="github" href="#">
+            <i class="fa-brands fa-github icon-colour"></i>
+            <h6>Github</h6>
+          </a>
+          <a class="linkedin" href="#">
+            <i class="fa-brands fa-linkedin-in icon-colour"></i>
+            <h6>linkedIn</h6>
+          </a>
+        </div>
+        <div class="Media">
+          <h4 class="icon-colour">Social Media</h4>
+          <a class="Instagram" href="#">
+            <i class="fa-brands fa-instagram icon-colour"></i>
+            <h6>Instagram</h6>
+          </a>
+          <a class="Facebook" href="#">
+            <i class="fa-brands fa-facebook-f icon-colour"></i>
+            <h6>Facebook</h6>
+          </a>
+        </div>
+      </div>
     </div>
-    <!-- Copyright -->
   </footer>
   <!-- Footer -->
 </body>
