@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #000;
 }
@@ -103,17 +102,16 @@ body {
   text-align: center;
   width: 100%;
   transition: 0.5s;
-  transform: translateY(150px);
+  transform: translateY(-10rem);
 }
 .card:hover .content .details {
-  transform: translateY(0px);
+  transform: translateY(0rem);
 }
 .card .content .details h2 {
   font-size: 1.25em;
   font-weight: 600;
   color: #555;
-  
-  line-height: 1.2em;
+  line-height: 0.9em;
 }
 .card .content .details h2 span {
   font-size: 0.8em;
@@ -230,5 +228,4 @@ body {
   .pr-container > .card-container {
     gap: 1rem;
   }
-  
 }
