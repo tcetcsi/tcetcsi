@@ -2,11 +2,21 @@
 <html lang="en">
 
 <head>
-  
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="zephyrevents.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     .blackpink {
       background-image: url("./QFNv.gif");
@@ -20,554 +30,287 @@
       }
     }
   </style>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="stylesheet" href="zephyrevents.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 
 <body style="background:url(https://github.com/kamalika-exe/CSI-2.0/blob/media/QFNv.gif?raw=true)">
 
-<!--navbar-->
-<nav class="navbar navbar-ligth navbar-expand-md fixed-top bg-light navbar--apple" style="background-color: rgba(255, 255, 255, 0.733)!important;">
-  <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#menu"><span
-        class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav flex-grow-1 justify-content-between" style="font-size: larger;">
-        <li class="nav-item d-none d-xs-block d-md-block"><a class="nav-link" href="./index.html">
-          <img src="./csi logo.png" width="100%">
-        </a></li>
-        <li class="nav-item"><a class="nav-link mt-3" href="./index.html">Home</a></li>
-        <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link mt-3" aria-expanded="true"
-          data-bs-toggle="dropdown" href="#">About </a>
-        <div class="dropdown-menu" data-bs-popper="none"><a class="dropdown-item" href="./ourteam.html">Our Team</a><a
-            class="dropdown-item" href="./workingcommittee.html">Working Committee</a><a class="dropdown-item" href="./previouscore.html">Previous-core</a></div>
-      </li>
-      <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link mt-3" aria-expanded="true"
-        data-bs-toggle="dropdown" href="#">Event Calendar </a>
-      <div class="dropdown-menu" data-bs-popper="none"><a class="dropdown-item" href="./pastevents.html">Past Events</a><a class="dropdown-item" href="./zephyrevents.html">Zephyr</a></div>
-    </li>
-        <li class="nav-item mt-3"><a class="nav-link" href="./magazine.html">Magazine</a></li>
-        <li class="nav-item mt-3"><a class="nav-link" href="./sponsorship.html">Sponsorship</a></li>
-      </ul>
+  <!--navbar-->
+  <nav class="navbar navbar-ligth navbar-expand-md fixed-top bg-light navbar--apple"
+    style="background-color: rgba(255, 255, 255, 0.733)!important;">
+    <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#menu"><span
+          class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav flex-grow-1 justify-content-between" style="font-size: larger;">
+          <li class="nav-item d-none d-xs-block d-md-block"><a class="nav-link" href="./index.html">
+              <img src="./csi logo.png" width="100%">
+            </a></li>
+          <li class="nav-item"><a class="nav-link mt-3" href="./index.html">Home</a></li>
+          <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link mt-3" aria-expanded="true"
+              data-bs-toggle="dropdown" href="#">About </a>
+            <div class="dropdown-menu" data-bs-popper="none"><a class="dropdown-item" href="./ourteam.html">Our
+                Team</a><a class="dropdown-item" href="./workingcommittee.html">Working Committee</a><a
+                class="dropdown-item" href="./previouscore.html">Previous-core</a></div>
+          </li>
+          <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link mt-3" aria-expanded="true"
+              data-bs-toggle="dropdown" href="#">Event Calendar </a>
+            <div class="dropdown-menu" data-bs-popper="none"><a class="dropdown-item" href="./pastevents.html">Past
+                Events</a><a class="dropdown-item" href="./zephyrevents.html">Zephyr</a></div>
+          </li>
+          <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link mt-3" aria-expanded="true"
+              data-bs-toggle="dropdown" href="#">Magazine </a>
+            <div class="dropdown-menu" data-bs-popper="none"><a class="dropdown-item" href="./pastevents.html">Nimbus
+                2021</a><a class="dropdown-item" href="./zephyrevents.html">Bulletin 2021</a></div>
+          </li>
+          <li class="nav-item mt-3"><a class="nav-link" href="./sponsorship.html">Sponsorship</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
   <!--navbar-->
   <!--text section-->
+  <!-- banner -->
+  <div class="banner-container">
+
+  </div>
+  <!-- banner -->
   <div class="container-fluid" style="margin-top: 8rem;">
     <div class="logo" style="font-size: 2rem;"><b>WHAT<span> IS</span> ZE<span>PH</span>YR?</b></div>
-    <div class="wrapper" >
+    <div class="wrapper">
       <div class="blackpink" style="background: none;">
         <div>
           <p style="text-shadow: none; color:white;">
-           Zephyr is a 3-day annual technical festival of Thakur College of Engineering and Technology. It was established in 2004 as a platform where students could exhibit and enhance their technical expertise. Over the years, it has gained immense popularity by broadening its horizon to include fun events and tournaments, both technical and impromptu. Do you want to gain technical finesse and learn a new skill? Are you a gamer who wants to compete and prove you're better than the rest? Or, do you want to do it all and have a memorable time meeting new people? If your answer is "yes" to any of the above questions, Zephyr is the perfect place for you. Be it students, academicians or the general public, Zephyr can be attended by anyone and everyone! Come join us for Zephyr 2022-23, and experience the thrill yourself!
-          
+            Zephyr is a 3-day annual technical festival of Thakur College of Engineering and Technology. It was
+            established in 2004 as a platform where students could exhibit and enhance their technical expertise. Over
+            the years, it has gained immense popularity by broadening its horizon to include fun events and tournaments,
+            both technical and impromptu. Do you want to gain technical finesse and learn a new skill? Are you a gamer
+            who wants to compete and prove you're better than the rest? Or, do you want to do it all and have a
+            memorable time meeting new people? If your answer is "yes" to any of the above questions, Zephyr is the
+            perfect place for you. Be it students, academicians or the general public, Zephyr can be attended by anyone
+            and everyone! Come join us for Zephyr 2022-23, and experience the thrill yourself!
+
           <div id="text">
             Do you want to geek out or learn something new to impress anyone with technical finesse? Do you portray
             yourself as a gamer and want to compete against other people? Maybe you just want to meet new people and
             make great memories together? Or you probably just want to do it all. If that's what you're looking for,
             Zephyr is the perfect destination for you. What would be more fun than to break free from your everyday
             routine and participate in something that you love? Come join us for our annual tech fest - Zephyr 2021-22.
-            Keep your eyes peeled for a lot of fun! See you there!</div></p>
-         <p id="toggle" style="font-size: 0.8rem;">...read more</p>
+            Keep your eyes peeled for a lot of fun! See you there!</div>
+          </p>
+          <p id="toggle" style="font-size: 0.8rem;">...read more</p>
+        </div>
       </div>
     </div>
-  </div>
     <div class="blackpink1"><b> EVENTS </b></div>
-   
+
     <!--text section-->
     <!--events section-->
     <div class="spacingforcards">
-  <div class="flex-container">   
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze2.png')";>
-            <div class="card-content">
-            <h2 class="card-title">Salsa Workshop</h2>
-            <p class="card-body" style="color:white;">It is a fun event to help students relax, and have fun but also create artistic masterpieces
-              in the process without much effort. Participants must pour single or several acrylic paints
-              on a canvas to create an eye-catching pattern in this session.</p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div>  
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze3.png')";>
-            <div class="card-content">
-            <h2 class="card-title">Human Snakes and Ladders</h2>
-            <p class="card-body" style="color:white;">It is a virtual simulation of an IPL auction wherein the participating teams will
-              compete in a live auction of players. Each team will be given a fixed amount of money
-              (virtual) which will be used by them to buy players in the auction. The goal will be to
-              assemble an 11-player
-              squad and get the most points possible, which will be determined by the players’
-              performance in the upcoming match.</p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div>  
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze4.png')">
-            <div class="card-content">
-            <h2 class="card-title">Technical Workshop - Augmented Reality</h2>
-            <p class="card-body" style="color:white;">Augmented reality (AR) is the 3 day workshop where we integrate real time digital
-              information with the user’s environment. The student attending the workshop will be able
-              to create a mini project at the end</p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div> 
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze5.png')">
-            <div class="card-content">
-            <h2 class="card-title">Quantum Core</h2>
-            <p class="card-body" style="color:white; ">Problem statements were provided on the spot and the participants were expected to
-              present their prospective solution by coding it in any language according to the
-              participants.</p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div> 
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze6.png')">
-            <div class="card-content">
-            <h2 class="card-title">Rocket League</h2>
-            <p class="card-body" style="color:white;">For this event we will be providing the participants with a link in which there will be a
-              different set of clues and the suspects related to the case. After analyzing the whole case
-              they will have to provide us with the killer’s / murderer’s name towards the end of the
-              event.
-              The team that suspected the killer correctly will be the winner</p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div> 
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze7.png')">
-            <div class="card-content">
-            <h2 class="card-title">Neon Cricket</h2>
-            <p class="card-body"  style="color:white;">In this a team of 4 members participate against each other and while the winners
-              qualify for the next round, the losers get disqualified. The last team to survive all the
-              rounds will win the game.</p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal7" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div> 
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze8.png')">
-            <div class="card-content">
-            <h2 class="card-title">COD Mobile</h2>
-            <p class="card-body" style="color:white;">To test the football knowledge of the game’s fans, we will be hosting a football trivia.
-              The trivia will have multiple groups of questions and the group from which the player
-              will be asked a question will be based on the spinning of a wheel. The players have to
-              answer correctly and rapidly to make it to the top.</p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal8" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div> 
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze9.png')">
-            <div class="card-content">
-            <h2 class="card-title">Cricket Auction</h2>
-            <p class="card-body">
-              It is a multiplayer game where around 20 rounds shall be played with each round being
-              of 120 seconds. It will be a league where fixtures would be prepared beforehand and
-              the teams would be assigned the matches according to the fixtures.
-            </p>
-            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal9" style="cursor: pointer;">Learn More</a>
-            </div>
-        </div>
-        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze10.png')">
+      <div class="flex-container">
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze1.png');">
           <div class="card-content">
-          <h2 class="card-title">Rink Football</h2>
-          <p class="card-body">
-            The goal is to give students from all fields a better understanding of the various means
-            of investing their savings and gaining a profit. The event will encompass a virtual
-            mock stock with different real-world scenarios and the decision to be made in the
-            situation as per the movement in the market. It will be a competitive event, but it will
-            also include justifications for why one investment option is better in a certain situation.
-          </p>
-          <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal10" style="cursor: pointer;">Learn More</a>
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
           </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze2.png')" ;>
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body" style="color:white;">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze3.png')" ;>
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body" style="color:white;">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze4.png')">
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body" style="color:white;">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze5.png')">
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body" style="color:white; ">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze6.png')">
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body" style="color:white;">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze7.png')">
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body" style="color:white;">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze8.png')">
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body" style="color:white;">Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('./assets/imgs/zephyrbanner/ze9.png')">
+          <div class="card-content">
+            <h2 class="card-title">EVENT</h2>
+            <p class="card-body">
+              Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.
+              <br>Short Discription of the Event.<br>
+            </p>
+            <a class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">Learn
+              More</a>
+          </div>
+        </div>
       </div>
-        </div>
 
-        <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Rink Football</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>The goal is to give students from all fields a better understanding of the various means
-                    of investing their savings and gaining a profit. The event will encompass a virtual
-                    mock stock with different real-world scenarios and the decision to be made in the
-                    situation as per the movement in the market. It will be a competitive event, but it will
-                    also include justifications for why one investment option is better in a certain situation.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: medium; color: black;">Perks :Prize Pool : 8000
-                  </p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees : 400 per team
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content"
+            style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
+            <div class="modal-header" style="background-color: black;">
+              <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Machine Learning Workshop</h5>
+              <div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                  style="color: rgba(243, 161, 131, 1)">X</button>
               </div>
             </div>
-          </div>
-          <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Cricket Auction</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>It is a multiplayer game where around 20 rounds shall be played with each round being
-                    of 120 seconds. It will be a league where fixtures would be prepared beforehand and
-                    the teams would be assigned the matches according to the fixtures.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks : Vouchers + Kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :50 per person
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
+            <div class="mt-0">
+              <p>Machine Learning has evolved from a vague textbook expression to sophisticated algorithms,
+                predominant in today's world without us even realising. It has become quite the trend in the 21st
+                century and is certainly not tapering off any time soon. The Machine Learning workshop will lay
+                emphasis on the interesting topics of Machine learning and dive deeper into object detection
+                algorithms using OpenCV and guide in making a guided project by the end of the workshop. We will be
+                issuing certificates by the end of the workshop and are certain that you will be instilled with a lot
+                of curiosity and interest in Machine Learning by the end of it.</p>
             </div>
-          </div>
-          <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">COD Mobile</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>To test the football knowledge of the game’s fans, we will be hosting a football trivia.
-                    The trivia will have multiple groups of questions and the group from which the player
-                    will be asked a question will be based on the spinning of a wheel. The players have to
-                    answer correctly and rapidly to make it to the top.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks : Prize Pool : 6000</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    150 per team
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Neon Cricket</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>In this a team of 4 members participate against each other and while the winners
-                    qualify for the next round, the losers get disqualified. The last team to survive all the
-                    rounds will win the game.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks : Prize + kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    250 per Team
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Rocket League</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>For this event we will be providing the participants with a link in which there will be a
-                    different set of clues and the suspects related to the case. After analyzing the whole case
-                    they will have to provide us with the killer’s / murderer’s name towards the end of the
-                    event.
-                    The team that suspected the killer correctly will be the winner</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks : Prize Pool: 3000 + kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    100per team
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Quantum Core</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>Problem statements were provided on the spot and the participants were expected to
-                    present their prospective solution by coding it in any language according to the
-                    participants.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks :1000 + kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    50 per person
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Technical Workshop - Augmented Reality</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>Augmented reality (AR) is the 3 day workshop where we integrate real time digital
-                    information with the user’s environment. The student attending the workshop will be able
-                    to create a mini project at the end.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks :Certificate + Kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    500 per person
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Human Snakes and Ladders</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>It is a virtual simulation of an IPL auction wherein the participating teams will
-                    compete in a live auction of players. Each team will be given a fixed amount of money
-                    (virtual) which will be used by them to buy players in the auction. The goal will be to
-                    assemble an 11-player
-                    squad and get the most points possible, which will be determined by the players’
-                    performance in the upcoming match.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks :Vouchers + Kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    50 per person
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Salsa Workshop</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>It is a fun event to help students relax, and have fun but also create artistic masterpieces
-                    in the process without much effort. Participants must pour single or several acrylic paints
-                    on a canvas to create an eye-catching pattern in this session.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks :Vouchers + Kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    Solo : 100/ Couple: 150
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content"
-                style="background: linear-gradient(90deg, rgba(243, 161, 131, 1) 0%, rgba(255, 195, 113, 1) 100%);">
-                <div class="modal-header" style="background-color: black;">
-                  <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Quantum Core</h5>
-                  <div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                      style="color: rgba(243, 161, 131, 1)">X</button>
-                  </div>
-                </div>
-                 <div class="mt-0">
-                  <p>Problem statements were provided on the spot and the participants were expected to
-                    present their prospective solution by coding it in any language according to the
-                    participants.</p>
-                </div>
-                <div class="modal-body mt-0">
-                  <hr>
-                  <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
-                  <p class="" style="font-size: medium; color: black;">Perks :1000 + kind</p>
-                  <p class="" style="font-size: 18; color: black;">Registration Fees :
-                    50 per person
-                  </p>
-                  <div class="">
-                    <div class="" style="display: flex;justify-content: center;"><a
-                        href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
-                        style="background: rgba(244, 92, 67, 1)">Register
-                        Now</a></div>
-                  </div>
-                </div>
+            <div class="modal-body mt-0">
+              <hr>
+              <p class="" style="font-size: 18; color:rgba(243, 161, 131, 1);">Venue : Zoom</p>
+              <p class="" style="font-size: medium; color: black;">Perks : Certificates + Vouchers</p>
+              <ol class="" style="font-size: 18; color: black;">Registration Fees :
+                <li style="font-size: medium; color: black;"> Free for CSI-TCET Members</li>
+                <li style="font-size: medium; color: black;">Rs.200 for Non-CSI Members</li>
+              </ol>
+              <div class="">
+                <div class="" style="display: flex;justify-content: center;"><a
+                    href="https://forms.gle/DYkQ9YjUWB6Z3N9T7" class="btn"
+                    style="background: rgba(244, 92, 67, 1)">Register
+                    Now</a></div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
     <!--events section-->
     <br>
     <br>
-  <!-- Footer -->
-<footer class="bg-dark text-center text-white p-3">
-  <!-- Grid container -->
-  <div class="container-fluid">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white p-3">
+      <!-- Grid container -->
+      <div class="container-fluid">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
 
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
 
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
 
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
 
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
 
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">CSI | Developed by tech team</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-    </body>
-    <script src="./zephyrevents.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/Navbar---Apple.js"></script>
-      <script language="JavaScript" type="text/javascript" src="./script.js"></script>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">CSI | Developed by tech team</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+<script src="./zephyrevents.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/Navbar---Apple.js"></script>
+<script language="JavaScript" type="text/javascript" src="./script.js"></script>
+
 </html>
