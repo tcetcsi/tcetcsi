@@ -15,6 +15,15 @@ body {
 * {
   font-family: sans-serif;
 }
+.banner-container {
+  margin-top: 5.5rem;
+  height: 40vh;
+  background-image: url("./assets/imgs/homepagebanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
 /*css for timeline*/
 .maintimelinediv {
   margin-top: 1rem;
@@ -182,7 +191,6 @@ body {
 }
 
 .maincontent {
-  margin-top: 2rem;
   padding: 0.5rem;
 }
 
