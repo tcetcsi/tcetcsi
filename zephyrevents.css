@@ -343,15 +343,11 @@ body {
 
 .card {
   color: var(--clr-neutral-100);
-  background-size: 0.5px;
-  padding: 10rem 0 0;
-  max-width: cover;
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 500s ease;
-
   margin: 1rem;
-  background-size: contain;
+  background-size: cover;
 }
 
 .card:hover,
@@ -412,7 +408,7 @@ body {
 .card-title {
   position: relative;
   color: white;
-  width: max-content;
+  width: 16rem;
 }
 
 .button {
@@ -432,6 +428,7 @@ body {
 
 .card-body {
   color: white;
+  width: 16rem;
 }
 
 .flex-container {
