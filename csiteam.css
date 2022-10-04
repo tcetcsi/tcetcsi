@@ -17,10 +17,27 @@ body {
   border-radius: 20px;
   margin: 1rem auto;
   width: 100%;
-  justify-content: space-between;
+
   box-shadow: rgba(9, 9, 182, 0.612) 0px 50px 100px -20px,
     rgba(156, 6, 6, 0.666) 0px 30px 60px -30px,
     rgba(5, 79, 154, 0.708) 0px -2px 6px 0px inset;
+}
+
+.tech2-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: 1rem auto;
+}
+.tech3-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+
+.tech3-container > .card-container {
+  padding: 3rem 1rem 1rem 1rem;
 }
 .heading {
   text-align: center;
@@ -28,7 +45,6 @@ body {
 .card-container {
   padding: 3rem 3rem 1rem 3rem;
   display: flex;
-
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
@@ -227,5 +243,26 @@ body {
   }
   .pr-container > .card-container {
     gap: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .tech2-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .tech2-container > .card-container,
+  .tech3-container > .card-container {
+    padding: 2rem;
+    gap: 20px;
+  }
+  .tech3-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
   }
 }
