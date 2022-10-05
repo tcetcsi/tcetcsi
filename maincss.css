@@ -15,13 +15,38 @@ body {
 * {
   font-family: sans-serif;
 }
+
 .banner-container {
   margin-top: 5.5rem;
-  height: 40vh;
-  background-image: url("./assets/imgs/homepagebanner.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 60vh;
+  background-image: url("./assets/imgs/4.png");
   width: 100vw;
+  background-size: cover;
+}
+.banner-container > img {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  body {
+    position: relative;
+  }
+  .banner-container {
+    overflow-x: hidden;
+    margin-top: 3.5rem;
+    height: 20vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+  }
+  .banner-container > img {
+    height: 100%;
+    width: 100vw;
+    background-clip: content-box;
+    object-fit: fill;
+  }
+  .flex-container {
+    margin-top: 2rem !important;
+  }
 }
 
 /*css for timeline*/
