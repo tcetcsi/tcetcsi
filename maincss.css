@@ -299,7 +299,7 @@ footer {
   flex-wrap: wrap;
   font-weight: bold;
   width: 60%;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .Email {
   width: 90%;
@@ -307,14 +307,14 @@ footer {
 .Email > i {
   margin-right: 1rem;
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .Email > span {
   color: #a5f0d3;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .Email {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .callraj {
   width: 90%;
@@ -322,14 +322,14 @@ footer {
 .callraj > i {
   margin-right: 1rem;
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .callraj > span {
   color: #a5f0d3;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .callraj {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .callpragya {
   width: 100%;
@@ -337,14 +337,14 @@ footer {
 .callpragya > i {
   margin-right: 1rem;
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .callpragya > span {
   color: #a5f0d3;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .callpragya {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .social-contain {
   display: flex;
